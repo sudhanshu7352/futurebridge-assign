@@ -11,6 +11,8 @@ export const Movies=()=>{
       })
     },[])
     return(
+        <>
+        <h1>Movies List</h1>
         <div className="main_div">
          {
             data.map((e)=>(
@@ -22,5 +24,6 @@ export const Movies=()=>{
             ))
          }
         </div>
+    </>
     )
 }
